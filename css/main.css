@@ -250,11 +250,24 @@ h1 {
 @media (max-width: 1024px) {
     .projects__inner { 
         
+        
     }
     .projects__card {
        width: 25%;
        height: 25vmax;   
     }
+    
+}
+@media (max-width: 767px) {
+    .projects__inner {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .projects__card {
+        overflow: hidden;
+        width: 100%;
+    }  
+
 }
 /*==============Team==================*/
 
@@ -403,16 +416,31 @@ h1 {
 @media (max-width: 1024px) {
     .reviews__item {
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
         margin: 0 auto;
-        min-width: 100%;
+        
     }
     .slider__item {
         overflow: hidden;
-        width: 100%;
+        
     }  
-
+    .reviews__img {
+        width: 100%;
+    
+    }
+    .reviews__content {
+        width: 100%;
+    }
+    .reviews__photo {
+        width: 100%;
+    }
+    .reviews__content {
+        
+    }
+    
 }
+
+
 /*===============Section download=================*/
 
 .section__download {
