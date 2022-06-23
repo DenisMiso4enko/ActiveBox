@@ -189,6 +189,17 @@ h1 {
 
 .card__text {}
 
+@media (max-width: 1024px) {
+    .features__inner {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .features__card {
+        margin: 0 auto;
+    }
+    
+}
+
 /*==============Projects==================*/
 
 .projects {
@@ -236,7 +247,15 @@ h1 {
     text-transform: uppercase;
     margin-bottom: 47px;
 }
-
+@media (max-width: 1024px) {
+    .projects__inner { 
+        
+    }
+    .projects__card {
+       width: 25%;
+       height: 25vmax;   
+    }
+}
 /*==============Team==================*/
 
 .team {
@@ -276,6 +295,18 @@ h1 {
 }
 .person__link_item:last-child {
     margin-right: 0;
+}
+@media (max-width: 1024px) {
+    .team__inner {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+    .team__card{
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    
 }
 
 /*===============Reviews scroll=================*/
@@ -366,6 +397,21 @@ h1 {
 }
 .slick-active button {
     background: #53354a;
+}
+
+
+@media (max-width: 1024px) {
+    .reviews__item {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        min-width: 100%;
+    }
+    .slider__item {
+        overflow: hidden;
+        width: 100%;
+    }  
+
 }
 /*===============Section download=================*/
 
@@ -473,4 +519,25 @@ h1 {
 .footer__link {
     color: #fff;
     text-transform: capitalize;
+}
+
+@media (max-width: 1024px) {
+    .footer__top {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+    .location{
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+    .social{
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+    .about{
+        margin: 0 auto;
+        margin-bottom: 40px;
+       
+    }
 }
