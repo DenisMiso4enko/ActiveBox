@@ -148,6 +148,11 @@ h1 {
     background: #FF4343;
     box-shadow: 4px 4px 30px #FF4343;
 }
+@media (max-width: 767px) {
+    .header__content_btn {
+        font-size: 18px;
+    }
+}
 
 
 /*==============Features==================*/
@@ -213,7 +218,8 @@ h1 {
     flex-wrap: wrap;
 }
 .projects__card {
-    width: 25%;
+   /*  width: 25%; */
+    width: 360px;
     height: 340px;
     
     background-size: cover;
@@ -254,7 +260,7 @@ h1 {
     }
     .projects__card {
        width: 25%;
-       height: 25vmax;   
+       height: 25vmax; 
     }
     
 }
@@ -264,8 +270,9 @@ h1 {
         flex-wrap: wrap;
     }
     .projects__card {
-        overflow: hidden;
-        width: 100%;
+        width: 50%;
+        height: 25vmax;
+    
     }  
 
 }
@@ -320,6 +327,19 @@ h1 {
         margin-bottom: 20px;
     }
     
+}
+@media (max-width: 600px) {
+    .team__inner {
+        width: 100%;
+        width: 270px;
+    }
+    .team__card {
+       width: 100%;
+       
+    }
+    .person__photo {
+        width: 100%;
+    }
 }
 
 /*===============Reviews scroll=================*/
@@ -422,11 +442,10 @@ h1 {
     }
     .slider__item {
         overflow: hidden;
-        
     }  
     .reviews__img {
         width: 100%;
-    
+        margin-bottom: 0;
     }
     .reviews__content {
         width: 100%;
@@ -463,7 +482,6 @@ h1 {
     margin-bottom: 67px;
 }
 .btn {
-    
 }
 .download__btn {
     background: #FF4343;
@@ -476,6 +494,13 @@ h1 {
 .download__btn:active {
     background: #FF4343;
     box-shadow: 4px 4px 30px #FF4343;
+}
+@media (max-width: 767px) {
+    .download__btn {
+        background: #FF4343;
+        color: #fff;
+        font-size: 18px;
+    }
 }
 
 
@@ -568,4 +593,9 @@ h1 {
         margin-bottom: 40px;
        
     }
+}
+
+
+.hide {
+    display: none;
 }
