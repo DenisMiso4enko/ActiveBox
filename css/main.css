@@ -156,6 +156,15 @@ a {
     .header__menu__list_item .item__link::after {
        display: none;
     }
+    h1 {
+        font-size: 36px;
+    }
+    .header__content_text {
+        font-size: 14px;
+    }
+    .btn {
+        width: 100%;
+    }
 }
 
 /*==============Header content==================*/
