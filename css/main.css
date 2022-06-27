@@ -171,6 +171,7 @@ a {
 .header__content {
     padding: 130px 0 150px;
     text-align: center;
+    height: 100vh;
 
 }
 
