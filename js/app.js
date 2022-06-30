@@ -15,6 +15,11 @@ burger.addEventListener('click', () => {
     burger.classList.toggle('active')
     menu.classList.toggle('active')
     headerContent.classList.toggle('hide')
+   /*  window.addEventListener('scroll', noscroll)
+    function noscroll() {
+    window.scrollTo(0,0)
+    } */
+
 })
 // При нажатии на сылку из меню удаляем класс active
 document.querySelectorAll('.menu__list').forEach(n => n.addEventListener('click', () => {
@@ -23,5 +28,9 @@ document.querySelectorAll('.menu__list').forEach(n => n.addEventListener('click'
     headerContent.toggle('hide')
 }))
 
+/* window.addEventListener('scroll', noscroll)
+function noscroll() {
+    window.scrollTo(0,0)
+}
 
-
+ */

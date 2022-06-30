@@ -9,6 +9,9 @@ body {
 a {
     color: inherit;
 }
+html {
+    scroll-behavior: smooth;
+}
 
 /*==============Header==================*/
 
@@ -130,6 +133,7 @@ a {
         transition: 0.3s;
         padding: 20px 0;
         z-index: 100;
+        overflow: hidden;
     }
     .header__menu__list_item {
         margin-bottom: 55px;
