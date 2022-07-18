@@ -6,12 +6,14 @@ $('.slider').slick({
     autoplaySpeed: 3000,
 });
 // Fixed Header
+
+
 $(function() {
     let header = $('#header')
     let intro = $('#intro')
     let introHeight = intro.innerHeight()
     let scrollPosition = $(window).scrollTop()
-    
+
     $(window).on('scroll', function() {
         scrollPosition = $(this).scrollTop()
         if (scrollPosition > introHeight) {
@@ -27,7 +29,7 @@ $(function() {
 const burger = document.querySelector('.burger')
 const menu = document.querySelector('.header__menu__list')
 const link = document.querySelectorAll('.item__link')
-console.log(link);
+console.log(menu);
 
 const headerContent = document.querySelector('.content__wrapper')
 // Вещаем событие на бургер и добовляем переключатель с классом active
@@ -52,11 +54,3 @@ link.forEach(function(item) {
 })
 
 
-
-
-/* window.addEventListener('scroll', noscroll)
-function noscroll() {
-    window.scrollTo(0,0)
-}
-
- */

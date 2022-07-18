@@ -60,11 +60,12 @@ html {
 }
 .fixed {
     position: fixed;
+    
     background-color: #252B49;
     padding: 0 15px;
 }
 .fixed .header__menu__list {
-    background-color: #2C3154;
+    background-color: #252B49;
 }
 .logo {}
 
