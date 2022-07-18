@@ -13,6 +13,10 @@ html {
     scroll-behavior: smooth;
 }
 
+.stopscroll {
+    overflow: hidden;
+}
+
 /* /*==============Header==================*/
 
 /*==============Header top==================*/

@@ -29,7 +29,7 @@ $(function() {
 const burger = document.querySelector('.burger')
 const menu = document.querySelector('.header__menu__list')
 const link = document.querySelectorAll('.item__link')
-console.log(menu);
+const body = document.body
 
 const headerContent = document.querySelector('.content__wrapper')
 // Вещаем событие на бургер и добовляем переключатель с классом active
@@ -37,12 +37,14 @@ burger.addEventListener('click', () => {
     burger.classList.toggle('active')
     menu.classList.toggle('active')
     headerContent.classList.toggle('unvisible')
+    body.classList.toggle('stopscroll')
 
 })
 // При нажатии на сылку из меню удаляем класс active
 document.querySelectorAll('.menu__list').forEach(n => n.addEventListener('click', () => {
     burger.classList.remove('active')
     menu.classList.remove('active')
+    body.classList.remove('stopscroll')
 }))
 link.forEach(function(item) {
     item.addEventListener('click', function() {
