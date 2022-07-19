@@ -2,7 +2,7 @@
 $('.slider').slick({
     arrows:false,
     dots:true,
-    autoplay: true,
+    /* autoplay: true, */
     autoplaySpeed: 3000,
 });
 // Fixed Header
@@ -45,6 +45,7 @@ document.querySelectorAll('.menu__list').forEach(n => n.addEventListener('click'
     burger.classList.remove('active')
     menu.classList.remove('active')
     body.classList.remove('stopscroll')
+    
 }))
 link.forEach(function(item) {
     item.addEventListener('click', function() {
