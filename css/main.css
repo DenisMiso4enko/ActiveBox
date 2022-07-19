@@ -25,7 +25,6 @@ html {
     background-size: cover;
     position: relative;
 }
-
 .header::before {
     content: '';
     position: absolute;
@@ -38,7 +37,6 @@ html {
     opacity: 0.8;
     z-index: 5;
 }
-
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -51,7 +49,6 @@ html {
     z-index: 10;
     color: #fff;
 }
-
 .header__top {
     display: flex;
     align-items: center;
@@ -96,13 +93,10 @@ html {
     background: #BABBC5;
     left: 0;
     top: 63px;
-    
 }
-
 .item__link:active {
     color: #E71414;
 }
-
 .active::after {
     content: '';
     position: absolute;
@@ -295,41 +289,33 @@ h1 {
     .header__content_text {
         font-size: 14px;
         margin-bottom: 49px;
-
     }
     .btn {
         display: block;
         width: 100%;
         padding: 14px 0;
-       
     }
 }
-
-
 
 /*==============Features==================*/
 
 .features {
     padding: 116px 0;
 }
-
 .features__inner {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 31px;
     row-gap: 87px;
 }
-
 .features__card {
     max-width: 370px;
     max-height: 305px;
     text-align: center;
 }
-
 .features__card_img {
     margin-bottom: 51px;
 }
-
 .card__title {
     font-family: 'Raleway';
     font-weight: 900;
@@ -339,7 +325,6 @@ h1 {
     color: #2D3033;
     margin-bottom: 42px;
 }
-
 .black {
     font-weight: 900;
 }
@@ -355,7 +340,6 @@ h1 {
         row-gap: 49px;
     }
     .features__card {
-        /* margin: 0 auto; */
         max-width: 310px;
     }
     .features__card_img {
@@ -423,8 +407,6 @@ h1 {
 }
 .projects__card {
     width: 25%;
-    /* width: 360px; */
-    /* height: 25%; */
     height: 340px;
     
     background-size: cover;
@@ -459,10 +441,6 @@ h1 {
     margin-bottom: 47px;
 }
 @media (max-width: 1024px) {
-    .projects__inner { 
-        
-        
-    }
     .projects__card {
        width: 25%;
        height: 25vmax; 
@@ -477,7 +455,6 @@ h1 {
     .projects__card {
         width: 50%;
         height: 25vmax;
-    
     }  
 }
 @media (max-width: 320px) {
@@ -507,7 +484,6 @@ h1 {
 }
 .team__card {
     max-width: 270px;
-    /* width: 25%; */
 }
 .person__photo {
     margin-bottom: 30px;
@@ -542,19 +518,12 @@ h1 {
     .team {
         padding: 70px 0;
     }
-    .team__inner {
-       /*  display: flex;
-        flex-wrap: wrap;
-        margin: 0 auto; */
-    }
     .team__card{
-       /*  margin: 0 auto; */
-       max-width: 227px;
+        max-width: 227px;
         margin-bottom: 20px;
     }
     .person__photo {
         width: 100%;
-        
     }
     .team__card_person__name {
         font-size: 18px;
@@ -575,23 +544,9 @@ h1 {
     .person__link_item img{
         width: 32px;
         height: 32px;
-       
     }
-    
 }
-/* @media (max-width: 600px) {
-    .team__inner {
-        width: 100%;
-        width: 270px;
-    }
-    .team__card {
-       width: 100%;
-       
-    }
-    .person__photo {
-        width: 100%;
-    }
-} */
+
 @media (max-width: 500px) {
     .team {
         padding: 35px 0 41px;
@@ -601,7 +556,6 @@ h1 {
     }
     .team__card {
        max-width: 100%;
-       
     }
     .team__card:not(:last-child) {
         margin-bottom: 56px;
@@ -615,7 +569,6 @@ h1 {
 
 .reviews {
     overflow: hidden;
-    
 }
 .container__slider {
    max-width: 1510px;
@@ -655,7 +608,6 @@ h1 {
 }
 .reviews__text {
     margin-bottom: 25px;
-
     font-family: 'Cardo', sans-serif;
     font-style: italic;
     font-size: 36px;
@@ -670,10 +622,10 @@ h1 {
 }
 
 
-
 .slick-list {
     overflow: hidden;
 }
+
 /* Лента слайдов */
 .slick-track{
     display: flex;
@@ -687,6 +639,7 @@ h1 {
     margin-top: 31px;
     list-style: none;
 }
+
 /* Элемент точки */
 .slick-dots button{
     font-size: 0;
@@ -701,26 +654,10 @@ h1 {
     background: #53354a;
 }
 
-
 @media (max-width: 1024px) {
-    .reviews__item {
-       
-    }
     .slider__item {
         overflow: hidden;
-    }  
-    .reviews__img {
-       
-    }
-    .reviews__content {
-       
-    }
-    .reviews__photo {
-       
-    }
-    .reviews__content {
-       
-    }
+    } 
     .reviews__text {
         max-width: 330px;
         font-weight: 400;
@@ -731,7 +668,6 @@ h1 {
         font-size: 12px;
         line-height: 14px;
     }
-    
 }
 
 @media (max-width: 767px) {
@@ -767,7 +703,6 @@ h1 {
     }
 }
 
-
 @media (max-width: 485px) {
     .reviews__photo {
         height: 257px;
@@ -781,12 +716,6 @@ h1 {
 @media (max-width: 330px) {
     .reviews__photo {
         height: 200px;
-    }
-}
-@media (max-width: 320px) {
-    .reviews__content {
-       
-       
     }
 }
 
@@ -811,9 +740,6 @@ h1 {
     color: #000000;
     margin-bottom: 67px;
 }
-.btn {
-    
-}
 .download__btn {
     max-width: 369px;
     max-height: 77.58px;
@@ -823,7 +749,6 @@ h1 {
 .download__btn:hover {
     background: #E71414;
 }
-
 .download__btn:active {
     background: #FF4343;
     box-shadow: 4px 4px 30px #FF4343;
@@ -845,16 +770,7 @@ h1 {
         line-height: 16px;
         margin-bottom: 62px;
     }
-    .btn {
-        /* font-size: 18px;
-        line-height: 21px;
-        padding: 24px 78px; */
-    }
-    .download__btn {
-    
-    }
 }
-
 
 @media (max-width: 767px) {
     .section__download {
@@ -882,18 +798,14 @@ h1 {
     }
 }
 
-
-
-
-/*===============Footer=================*/
+/*===================== Footer=====================*/
 
 .footer {
     background: #353C65;
 }
-.footer__inner {
 
-}
-/*===============Footer top=================*/
+/*===================== Footer top ====================*/
+
 .footer__top {
     padding: 71px 0;
     display: flex;
@@ -940,7 +852,9 @@ h1 {
 .about__text {
     text-transform: capitalize;
 }
-/*===============Footer bottom=================*/
+
+/*======================= Footer bottom =====================*/
+
 .footer__bottom {
     background: #2C3154;
     padding: 21px 0;
@@ -959,13 +873,10 @@ h1 {
     .footer__top {
         display: flex;
         flex-wrap: wrap;
-        /* margin: 0 auto; */
         padding: 46px 0 41px;
     }
     .location{
         max-width: 317px;
-        /* margin: 0 auto;
-        margin-bottom: 40px; */
     }
     .location__title {
         font-size: 14px;
@@ -978,8 +889,6 @@ h1 {
     }
     .social{
         max-width: 317px;
-        /* margin: 0 auto;
-        margin-bottom: 40px; */
     }
     .social__title {
         font-size: 14px;
@@ -990,11 +899,9 @@ h1 {
     .social__links_list__item img{
         width: 33px;
         height: 33px;
-       
     }
     .about{
         max-width: 317px;
-       /*  margin: 0 auto; */
     }
     .about__title {
         font-size: 14px;
@@ -1010,7 +917,6 @@ h1 {
         line-height: 16px;
     }
 }
-
 
 @media (max-width: 768px) {
     .footer__top {
@@ -1047,10 +953,7 @@ h1 {
         font-size: 14px;
         line-height: 16px;
     }
-
 }
-
-
 .hide {
     display: none;
 }

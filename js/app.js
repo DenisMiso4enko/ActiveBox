@@ -2,7 +2,7 @@
 $('.slider').slick({
     arrows:false,
     dots:true,
-    /* autoplay: true, */
+    autoplay: true,
     autoplaySpeed: 3000,
 });
 // Fixed Header
