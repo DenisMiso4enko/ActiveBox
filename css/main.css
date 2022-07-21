@@ -147,14 +147,14 @@ html {
     .header__menu__list {
         position: fixed;
         left: -100%;
-        top: 102px;
+        top: 55px;
         gap: 0;
         display: flex;
         flex-direction: column;
         width: 100%;
         min-height: 100%; 
         transition: 0.3s;
-        padding: 20px 0;
+        padding: 50px 0;
         z-index: 100;
         overflow: hidden;
     }
